@@ -1,0 +1,9 @@
+# github 사용자 정보 확인
+	git config --global --list
+# github 사용자 정보 등록
+	#사용자 이름 등록
+	git config --global user.name 'shgtry'
+	# 이메일 등록
+	git config --global user.email 'sontry@naver.com'
+	#개행문자 처리
+	git config --global core.autocrlf true
