@@ -7,3 +7,23 @@
 	git config --global user.email 'sontry@naver.com'
 	#개행문자 처리
 	git config --global core.autocrlf true
+
+#github 초기화
+	git init
+
+#github 상태 확인
+	git status
+
+# github 변경 사항 추적
+	git add .
+	git add *
+	git add ./index.html 
+
+#github commit을 통한 version 생성
+	git commit -m '프로젝트를 생성'
+
+#commit한 version들을 확인
+#누가 언제 생성 하였는지 확인 가능
+	git log
+
+
